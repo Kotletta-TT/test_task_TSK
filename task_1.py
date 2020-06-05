@@ -15,8 +15,8 @@ def convert_commulative(massive):
 
 def check_intersection(massive1, massive2):
     coordinate_intersection = []
-
-    for i in range(len(massive1)-1):
+    minimal_len_massive = min(len(massive1), len(massive2))
+    for i in range(minimal_len_massive-1):
         x1_1 = i
         x2_1 = i
         x1_2 = i + 1
