@@ -3,9 +3,6 @@ from task_1 import convert_commulative, check_intersection
 
 
 class MyTestCase(unittest.TestCase):
-    def test_something(self):
-        self.assertNotEqual(True, False)
-        #self.assertEqual(True, False)
 
     def test_commulative(self):
         _input = [1, 2, 2, -1, 2]
